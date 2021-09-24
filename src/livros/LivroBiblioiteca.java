@@ -1,4 +1,4 @@
-package exercicios.diversos.oop;
+package livros;
 
 import java.util.Date;
 
