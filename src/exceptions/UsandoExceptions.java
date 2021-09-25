@@ -45,8 +45,6 @@ public class UsandoExceptions {
                 System.out.println("Contatos da Agenda ");
                 System.out.println(agenda);
             }
-
-
         }
         public static void consultarContato (Scanner scan, Agenda agenda){
             String nomeContato = lerInformacoesString(scan, " Entre com o  nome do contato a ser pesquisado: ");

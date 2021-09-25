@@ -15,6 +15,7 @@ public class Agenda {
         for(int i = 0; i < contatos.length;i++){
             if(contatos[i] == null){
                 contatos[i] = c;
+                cheia = false;
                 break;
             }
         }
@@ -25,7 +26,7 @@ public class Agenda {
 
     public int consultarContatoPorNome (String nome) throws ContatoNaoExisteExeption{
         for (int i = 0; i < contatos.length; i ++){
-            if(contatos[i] == null){
+            if(contatos[i] != null){
                 if(contatos[i].getNome().equalsIgnoreCase(nome)){
                     return i;
                 }

@@ -17,9 +17,6 @@ public class Contato {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNome() {
         return nome;
@@ -48,7 +45,7 @@ public class Contato {
     @Override
     public String toString() {
         String s =  " [ " ;
-               s += "id:" + id ;
+               s += " Id:" + id ;
                s += ", nome= " + nome + '\'' ;
                s += ", telefone: " + telefone + '\'' ;
                s += ", email: " + email + '\'' ;
