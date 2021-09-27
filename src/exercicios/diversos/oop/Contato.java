@@ -6,6 +6,21 @@ public class Contato {
     private Endereco endereco;
     private Telefone[] telefones;
 
+    public Contato() {
+    }
+
+    public Contato(String nome, Endereco endereco, Telefone[] telefones) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefones = telefones;
+    }
+
+    public Contato(String nome, Endereco s, Telefone contato) {
+    }
+
+    public Contato(String s, String s1, String contato) {
+    }
+
     public String getNome() {
         return nome;
     }
